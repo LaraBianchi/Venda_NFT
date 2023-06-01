@@ -148,10 +148,6 @@ body {
   transition: 1s;
 }
 
-.side-bar ul.iten-side-bar li a {
-  text-decoration: none;
-}
-
 .side-bar ul .iten-side-bar:hover {
   text-shadow: 0 0 2px antiquewhite;
   width: 120px;
@@ -159,6 +155,10 @@ body {
   text-align: center;
   background: indigo;
   border-radius: 5px;
+}
+
+.iten-side-bar a {
+  text-decoration: none;
 }
 
 /*                          */
@@ -184,20 +184,12 @@ body {
 
 .product .img-fundo-market {
   height: 15rem;
-  background: rgb(55, 12, 56);
-  background: linear-gradient(
-    90deg,
-    rgba(1, 12, 95, 1) 3%,
-    rgba(115, 14, 1, 1) 30%,
-    rgba(131, 15, 79, 1) 70%,
-    rgba(76, 98, 80, 1) 97%
-  );
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px;
 }
 .img-fundo-market .text-img {
   padding: 1rem 1.5rem;
@@ -270,9 +262,39 @@ body {
   margin: 1.5rem;
 }
 
+.container-products-market .product:nth-child(1) .img-fundo-market {
+  background: url(https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-market .product:nth-child(2) .img-fundo-market {
+  background: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-market .product:nth-child(3) .img-fundo-market {
+  background: url(https://images.pexels.com/photos/1749303/pexels-photo-1749303.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-market .product:nth-child(4) .img-fundo-market {
+  background: url(https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-market .product:nth-child(5) .img-fundo-market {
+  background: url(https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-market .product:nth-child(6) .img-fundo-market {
+  background: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-market .product:nth-child(7) .img-fundo-market {
+  background: url(https://images.pexels.com/photos/592077/pexels-photo-592077.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-market .product:nth-child(8) .img-fundo-market {
+  background: url(https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-market .product:nth-child(9) .img-fundo-market {
+  background: url(https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+
 .container-products-market .product .info-product {
   background: rgba(0, 0, 0, 0.6);
-  border-radius: ;
+  padding: 0.7rem;
+  margin: 15px;
+  border-radius: 12px;
 }
 
 /*                                                  */
@@ -281,6 +303,7 @@ body {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin: 15px 0;
 }
 
 .explore-dashboard .subtitle-dashboard {
@@ -363,31 +386,48 @@ body {
 }
 
 .container-products-dashboard .product {
-  width: 100%;
-  height: fit-content;
-  border-radius: 5px;
-  background: rgba(0, 0, 0, 0.2);
+  margin: 0.5rem;
 }
 
-.product .img-fundo {
+.product .img-fundo-dashboard {
   height: 15rem;
-  background: rgb(55, 12, 56);
-  background: linear-gradient(
-    90deg,
-    rgba(55, 12, 56, 1) 3%,
-    rgba(115, 14, 121, 1) 30%,
-    rgba(131, 15, 112, 1) 70%,
-    rgba(76, 12, 80, 1) 97%
-  );
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  border-radius: 5px 5px 0 0;
+  border-radius: 5px; 
 }
 
-.img-fundo .text-img {
+.container-products-dashboard .product:nth-child(1) .img-fundo-dashboard {
+  background: url(https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-dashboard .product:nth-child(2) .img-fundo-dashboard {
+  background: url(https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-dashboard .product:nth-child(3) .img-fundo-dashboard {
+  background: url(https://images.pexels.com/photos/1749303/pexels-photo-1749303.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-dashboard .product:nth-child(4) .img-fundo-dashboard {
+  background: url(https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-dashboard .product:nth-child(5) .img-fundo-dashboard {
+  background: url(https://images.pexels.com/photos/1485894/pexels-photo-1485894.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-dashboard .product:nth-child(6) .img-fundo-dashboard {
+  background: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-dashboard .product:nth-child(7) .img-fundo-dashboard {
+  background: url(https://images.pexels.com/photos/592077/pexels-photo-592077.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-dashboard .product:nth-child(8) .img-fundo-dashboard {
+  background: url(https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+.container-products-dashboard .product:nth-child(9) .img-fundo-dashboard {
+  background: url(https://images.pexels.com/photos/2085998/pexels-photo-2085998.jpeg?auto=compress&cs=tinysrgb&w=1600);
+}
+
+.img-fundo-dashboard .text-img {
   padding: 1rem 1.5rem;
   margin-bottom: 0.3rem;
   font-size: 1.2rem;
@@ -396,14 +436,16 @@ body {
   transition: 1s;
 }
 
-.img-fundo .text-img:hover {
+.img-fundo-dashboard .text-img:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
 
-.product .info-product {
-  margin: 0.2rem 0;
-  padding: 0.5rem;
+.container-products-dashboard .product .info-product {
+  margin: 15px 10px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
 }
 
 .info-product .id-person {
